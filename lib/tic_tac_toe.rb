@@ -8,7 +8,7 @@ class Board
   def rest!
     @cells = Array.new(9, " ")
   end 
-end   
 
 def display
 end   
+end 
