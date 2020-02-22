@@ -2,7 +2,7 @@ require_relative '../lib/tic_tac_toe.rb'
 
 describe './lib/tic_tac_toe.rb' do
   describe TicTacToe do
-    describe '#initialize' do
+    describe '#iniatialize' do
       it 'assigns an instance variable @board to an array with 9 blank spaces " "' do
         game = TicTacToe.new
         expect(game.instance_variable_get(:@board)).to eq([" "," "," "," "," "," "," "," "," "])
